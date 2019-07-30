@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/add_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="15dp">
+
+            <EditText
+                android:id="@+id/add_event_nameID"
+                android:hint="Nome do evento"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:padding="15dp"
+
+
+                android:textColor="@color/colorPrimary"
+                android:drawableLeft="@drawable/ic_name_event"
+                android:drawablePadding="15dp" />
+
+            <EditText
+                android:id="@+id/add_event_dateID"
+                android:hint="Data"
+                android:focusable="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:padding="15dp"
+                android:textColor="@color/colorPrimary"
+                android:drawableLeft="@drawable/ic_date_event"
+                android:drawablePadding="15dp" />
+
+            <EditText
+                android:id="@+id/add_event_placeID"
+                android:hint="Local"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:padding="15dp"
+
+                android:textColor="@color/colorPrimary"
+                android:drawableLeft="@drawable/ic_place_event"
+                android:drawablePadding="15dp" />
+
+            <EditText
+                android:id="@+id/add_event_streetID"
+                android:hint="Rua"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:padding="15dp"
+
+                android:textColor="@color/colorPrimary"
+                android:drawableLeft="@drawable/ic_street_event"
+                android:drawablePadding="15dp" />
+
+            <EditText
+                android:id="@+id/add_event_numberID"
+                android:hint="Número"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:padding="15dp"
+                android:inputType="number"
+
+                android:textColor="@color/colorPrimary"
+                android:drawableLeft="@drawable/ic_number_icon"
+                android:drawablePadding="15dp" />
+
+            <EditText
+                android:id="@+id/add_event_cityID"
+                android:hint="Cidade"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:padding="15dp"
+                android:inputType="number"
+
+                android:textColor="@color/colorPrimary"
+                android:drawableLeft="@drawable/ic_city_event"
+                android:drawablePadding="15dp" />
+
+            <EditText
+                android:id="@+id/add_event_areaID"
+                android:hint="Bairro"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:padding="15dp"
+
+                android:textColor="@color/colorPrimary"
+                android:drawableLeft="@drawable/ic_area_event"
+                android:drawablePadding="15dp" />
+
+            <EditText
+                android:id="@+id/add_event_describeID"
+                android:hint="Descrição"
+
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:paddingStart="20dp"
+                android:padding="15dp"
+
+                android:textColor="@color/colorPrimary"
+                android:drawableLeft="@drawable/ic_description_event"
+                android:drawablePadding="15dp" />
+
+            <EditText
+                android:id="@+id/add_event_buyLinkID"
+                android:hint="Link de compra (opcional)"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:padding="15dp"
+
+                android:textColor="@color/colorPrimary"
+                android:drawableLeft="@drawable/ic_link_event"
+                android:drawablePadding="15dp" />
+
+            <ImageButton
+                android:id="@+id/add_event_image"
+                android:layout_width="200dp"
+                android:layout_gravity="center"
+                android:layout_height="43dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/ic_add_event_addimage" />
+
+            <android.support.v4.widget.ContentLoadingProgressBar
+                style="?android:attr/progressBarStyle"
+                android:id="@+id/add_progress_bar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:theme="@style/SecondaryColor"
+                android:visibility="gone"/>
+
+            <ru.dimorinny.floatingtextbutton.FloatingTextButton
+                android:id="@+id/add_confirm_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:padding="25dp"
+                app:floating_background_color="@color/colorPrimary"
+                app:floating_left_icon="@drawable/ic_add_box_black_24dp"
+                app:floating_title="CRIAR EVENTO"
+                app:floating_title_color="@color/black">
+
+            </ru.dimorinny.floatingtextbutton.FloatingTextButton>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

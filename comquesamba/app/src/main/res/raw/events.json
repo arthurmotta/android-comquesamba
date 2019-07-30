@@ -1,0 +1,81 @@
+[ {
+    "id": 1,
+    "name": "SAMBA DO TRABALHADOR",
+    "description": "Roda de Samba que nasceu pelas ruas do centro do Rio - uma verdadeira paixão!",
+    "date": "2018-10-22",
+    "address": "Arco do Teles",
+    "imageUrl": "https://i.imgur.com/RveV1yH.png"
+  },
+  {
+  "id": 2,
+  "name": "SAMBA NO BAR DA LAPA",
+  "description": "Toda quarta tem o samba da melhor qualidade no Bar da Lapa.",
+  "date": "2018-10-23",
+  "address": "Av. Mem de Sá, 69",
+  "imageUrl": "https://i.imgur.com/RveV1yH.png"
+  },
+  {
+    "id": 3,
+    "name": "QUINTA NO RIO SCENARIUM",
+    "description": "Toda quinta tem música ao vivo no Rio Scenarium.",
+    "date": "2018-10-24",
+    "address": "Rua do Lavradio, 20",
+    "imageUrl": "https://i.imgur.com/RveV1yH.png"
+  },
+  {
+    "id": 4,
+    "name": "SEXTA NO REI DO BACALHAU",
+    "description": "Todas as sextas-feiras o Rei do Bacalhau apresenta Pagode Chic.",
+    "date": "2018-12-01",
+    "address": "Rodovia Washington Luís, 2154",
+    "imageUrl": "https://i.imgur.com/RveV1yH.png"
+  },
+  {
+    "id": 5,
+    "name": "SÁBADO NO TRAPICHE GAMBOA",
+    "description": "Sábado é dia de Roda de Samba no Trapiche Gamboa.",
+    "date": "2018-12-01",
+    "address": "Rua Sacadura Cabral, 155",
+    "imageUrl": "https://i.imgur.com/RveV1yH.png"
+  },
+  {
+    "id": 6,
+    "name": "SÁBADO CARIOCA DA GEMA",
+    "description": "Sábado é dia de samba no Carioca da Gema na Lapa.",
+    "date": "2018-12-01",
+    "address": "Av Mem de Sá, 79",
+    "imageUrl": "https://i.imgur.com/RveV1yH.png"
+  },
+  {
+    "id": 7,
+    "name": "SÁBADO NO BAR DA LAPA",
+    "description": "Sábado é dia de samba no Bar da Lapa.",
+    "date": "2018-12-01",
+    "address": "Av. Mem de Sá, 69",
+    "imageUrl": "https://i.imgur.com/RveV1yH.png"
+  },
+  {
+    "id": 8,
+    "name": "PAGODE DO BATUTA",
+    "description": "Sexta é dia de curtir o Pagode do Batuta no New Berço de Vila Isabel.",
+    "date": "2018-12-01",
+    "address": "Rua Barão de São Francisco, 399",
+    "imageUrl": "https://i.imgur.com/RveV1yH.png"
+  },
+  {
+    "id": 9,
+    "name": "SAMBA D'ANTIGA",
+    "description": "Chama os amigos pra curtir um Samba de verdade com um grupo Samba D'Antiga.",
+    "date": "2018-12-01",
+    "address": "Rua Araguaia, 985",
+    "imageUrl": "https://i.imgur.com/RveV1yH.png"
+  },
+  {
+    "id": 10,
+    "name": "SAMBA DO PROVI",
+    "description": "Quinta a Provisório Club sacode a Praia da Bica na Ilha do Governador com o Samba do Provi.",
+    "date": "2018-12-01",
+    "address": "Praia da Bica, 39",
+    "imageUrl": "https://i.imgur.com/RveV1yH.png"
+  }
+]

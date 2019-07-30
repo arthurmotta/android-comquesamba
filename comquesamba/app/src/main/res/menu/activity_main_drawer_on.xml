@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/main_screen"
+            android:icon="@drawable/menuhome"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/main_maps"
+            android:icon="@drawable/menulocal"
+            android:title="@string/sambas_por_perto" />
+
+        <item
+            android:id="@+id/main_add_event"
+            android:icon="@drawable/menuadd"
+            android:title="@string/add_event" />
+
+        <item
+            android:id="@+id/main_logout"
+            android:icon="@drawable/menuout"
+            android:title="@string/logout"/>
+
+    </group>
+
+</menu>

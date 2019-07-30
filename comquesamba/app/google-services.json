@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "895101451868",
+    "firebase_url": "https://comquesamba-4a6bb.firebaseio.com",
+    "project_id": "comquesamba-4a6bb",
+    "storage_bucket": "comquesamba-4a6bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895101451868:android:5287fefe8e2560de",
+        "android_client_info": {
+          "package_name": "br.com.comquesamba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895101451868-80t6f7iogm3tdtuiipa97h0368koh79b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuibYX1XLuI0b-dYbaXHr8dk_QxocZflk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
